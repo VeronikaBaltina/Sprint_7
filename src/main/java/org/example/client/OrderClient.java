@@ -4,10 +4,8 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import io.restassured.response.ValidatableResponse;
 import org.example.client.base.ScooterRestClient;
-import org.example.model.Courier;
 import org.example.model.OrderData;
 import org.example.model.OrderTrackNumber;
-import org.json.JSONObject;
 
 import static io.restassured.RestAssured.given;
 

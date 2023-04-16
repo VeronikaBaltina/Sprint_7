@@ -1,6 +1,4 @@
 import io.qameta.allure.Description;
-import io.qameta.allure.Step;
-import io.qameta.allure.junit4.DisplayName;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
@@ -14,7 +12,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
@@ -112,6 +109,4 @@ public class CourierLoginTest {
         assertEquals("Неверный status code", 400, statusCode);
         assertEquals("Текст сообщения не совпадает", "Недостаточно данных для входа", message);
     }
-
-
 }

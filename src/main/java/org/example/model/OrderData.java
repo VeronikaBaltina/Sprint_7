@@ -32,56 +32,83 @@ public class OrderData {
     }
 
     public String getFirstName() {
-        return this.firstName; }
+        return this.firstName;
+    }
+
     public void setFirstName(String firstName) {
-        this.firstName = firstName; }
+        this.firstName = firstName;
+    }
 
     public String getLastName() {
-        return this.lastName; }
+        return this.lastName;
+    }
+
     public void setLastName(String lastName) {
-        this.lastName = lastName; }
+        this.lastName = lastName;
+    }
 
 
     public String getAddress() {
-        return this.address; }
+        return this.address;
+    }
+
     public void setAddress(String address) {
-        this.address = address; }
+        this.address = address;
+    }
 
 
     public int getMetroStation() {
-        return this.metroStation; }
+        return this.metroStation;
+    }
+
     public void setMetroStation(int metroStation) {
-        this.metroStation = metroStation; }
+        this.metroStation = metroStation;
+    }
 
 
     public String getPhone() {
-        return this.phone; }
+        return this.phone;
+    }
+
     public void setPhone(String phone) {
-        this.phone = phone; }
+        this.phone = phone;
+    }
 
 
     public int getRentTime() {
-        return this.rentTime; }
+        return this.rentTime;
+    }
+
     public void setRentTime(int rentTime) {
-        this.rentTime = rentTime; }
+        this.rentTime = rentTime;
+    }
 
 
     public String getDeliveryDate() {
-        return this.deliveryDate; }
+        return this.deliveryDate;
+    }
+
     public void setDeliveryDate(String deliveryDate) {
-        this.deliveryDate = deliveryDate; }
+        this.deliveryDate = deliveryDate;
+    }
 
 
     public String getComment() {
-        return this.comment; }
+        return this.comment;
+    }
+
     public void setComment(String comment) {
-        this.comment = comment; }
+        this.comment = comment;
+    }
 
 
     public List<String> getColor() {
-        return this.color; }
+        return this.color;
+    }
+
     public void setColor(List<String> color) {
-        this.color = color; }
+        this.color = color;
+    }
 
 }
 

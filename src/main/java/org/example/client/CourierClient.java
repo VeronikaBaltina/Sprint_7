@@ -1,6 +1,5 @@
 package org.example.client;
 
-import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
 import org.example.client.base.ScooterRestClient;
 import org.example.model.Courier;

@@ -3,7 +3,6 @@ package org.example.client.base;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import org.junit.runner.Request;
 
 public class ScooterRestClient {
     protected static final String BASE_URL = "https://qa-scooter.praktikum-services.ru/api/v1/";

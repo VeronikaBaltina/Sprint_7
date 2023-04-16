@@ -1,5 +1,4 @@
 import io.qameta.allure.Description;
-import io.qameta.allure.Step;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
